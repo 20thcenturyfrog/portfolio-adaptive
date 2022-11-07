@@ -5,6 +5,11 @@ html {
   padding: 0;
 }
 
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .nav__menu {
   display: flex;
   justify-content: flex-end;
