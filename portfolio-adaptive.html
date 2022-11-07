@@ -26,6 +26,12 @@
       href="https://fonts.googleapis.com/css2?family=Heebo&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
@@ -61,7 +67,7 @@
         <div class="post__wrapper">
           <div class="post">
             <h2 class="post__headline">Making a design system from scratch</h2>
-            <div class="datetheme__wrapper">
+            <div class="datetheme__wrapper_post">
               <div class="post__date">12 Feb 2020</div>
               <div class="post__theme">Design, Pattern</div>
             </div>
@@ -75,7 +81,7 @@
             <h2 class="post__headline">
               Creating pixel perfect icons in Figma
             </h2>
-            <div class="datetheme__wrapper">
+            <div class="datetheme__wrapper_post">
               <div class="post__date">12 Feb 2020</div>
               <div class="post__theme">Figma, Icon Design</div>
             </div>
@@ -89,52 +95,73 @@
       </div>
     </section>
     <section class="featuredworks">
-      <div class="work">
-        <img src="images/work1.png" alt="Work 1" class="work__cover" />
-        <h2 class="work__headline">Designing Dashboards</h2>
-        <div class="work__wrapper">
-          <div class="work__date">2020</div>
-          <div class="work__theme">Dashboard</div>
+      <div class="featuredworks__wrapper">
+        <h3 class="featuredworks__text">Featured works</h3>
+        <div class="work work_first">
+          <img src="images/work1.png" alt="Work 1" class="work__cover" />
+          <div class="work__content_wrapper">
+            <h2 class="work__headline">Designing Dashboards</h2>
+            <div class="datetheme__wrapper_work">
+              <div class="work__date"><span>2020</span></div>
+              <div class="work__theme">Dashboard</div>
+            </div>
+            <div class="work__text">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </div>
+          </div>
         </div>
-        <div class="work__text">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
+        <div class="work">
+          <img src="images/work2.png" alt="Work 2" class="work__cover" />
+          <div class="work__content_wrapper">
+            <h2 class="work__headline">Vibrant Portraits of 2020</h2>
+            <div class="datetheme__wrapper_work">
+              <div class="work__date"><span>2018</span></div>
+              <div class="work__theme">Illustration</div>
+            </div>
+            <div class="work__text">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="work">
-        <img src="images/work2.png" alt="Work 2" class="work__cover" />
-        <h2 class="work__headline">Vibrant Portraits of 2020</h2>
-        <div class="work__wrapper">
-          <div class="work__date">2018</div>
-          <div class="work__theme">Illustration</div>
-        </div>
-        <div class="work__text">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
-        </div>
-      </div>
-      <div class="work">
-        <img src="images/work3.png" alt="Work 3" class="work__cover" />
-        <h2 class="work__headline">36 Days of Malayalam type</h2>
-        <div class="work__wrapper">
-          <div class="work__date">2018</div>
-          <div class="work__theme">Typography</div>
-        </div>
-        <div class="work__text">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
+        <div class="work">
+          <img src="images/work3.png" alt="Work 3" class="work__cover" />
+          <div class="work__content_wrapper">
+            <h2 class="work__headline">36 Days of Malayalam type</h2>
+            <div class="datetheme__wrapper_work">
+              <div class="work__date"><span>2018</span></div>
+              <div class="work__theme">Typography</div>
+            </div>
+            <div class="work__text">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <footer class="footer">
       <div class="footer__links">
-        <img src="images/fb.svg" alt="Facebook" />
-        <img src="images/insta.svg" alt="Instagram" />
-        <img src="images/twitter.svg" alt="Twitter" />
-        <img src="images/Linkedin.svg" alt="LinkedIn" />
+        <img src="images/fb.svg" alt="Facebook" class="footer__links_icon" />
+        <img
+          src="images/insta.svg"
+          alt="Instagram"
+          class="footer__links_icon"
+        />
+        <img
+          src="images/twitter.svg"
+          alt="Twitter"
+          class="footer__links_icon"
+        />
+        <img
+          src="images/Linkedin.svg"
+          alt="LinkedIn"
+          class="footer__links_icon"
+        />
       </div>
       <div class="footer__copyright">Copyright ©2020 All rights reserved</div>
     </footer>
